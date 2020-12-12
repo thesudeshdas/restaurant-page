@@ -1,7 +1,12 @@
 import initialPageLoad  from "./pages/initial-page-load";
-import renderNavigation from "./components/navigation";
-import renderFooter from "./components/footer";
+import renderMenuPage from "./pages/menupage";
+import renderHomePage from "./pages/homepage";
+import renderContactPage from "./pages/contactpage";
 
 const finalCreation = ( () => {
     initialPageLoad();
+    
+    document.getElementById('button-menu').addEventListener('click', renderMenuPage);
+    document.getElementById('button-home').addEventListener('click', renderHomePage);
+    document.getElementById('button-home').addEventListener('click', renderContactPage);
 } )();
