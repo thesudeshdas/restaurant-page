@@ -2,7 +2,7 @@ const renderNavigation = () => {
     const navbar = document.createElement('nav');
     navbar.innerHTML = `
         <h1>
-            <img class="brand-logo" src="/src/images/brand-logo.svg" alt="">
+            <img class="brand-logo" src="/dist/images/brand-logo.svg" alt="">
             Dash Eats
         </h1>
         <ul>
