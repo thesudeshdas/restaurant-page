@@ -8,5 +8,5 @@ const finalCreation = ( () => {
     
     document.getElementById('button-menu').addEventListener('click', renderMenuPage);
     document.getElementById('button-home').addEventListener('click', renderHomePage);
-    document.getElementById('button-home').addEventListener('click', renderContactPage);
+    document.getElementById('button-contact').addEventListener('click', renderContactPage);
 } )();
